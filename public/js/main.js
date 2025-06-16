@@ -64,7 +64,7 @@ const observer = new IntersectionObserver(entries => {
       setTimeout(() => {
         loadingNewPosts();
         spinner.classList.add('opacity-0');
-      }, 5000);
+      }, 1000);
     }
   })
 }, {
